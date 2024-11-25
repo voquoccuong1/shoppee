@@ -1,0 +1,611 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #ed5233;
+            color:#ed5233;
+            padding: 10px;
+            display: flex;
+            flex-direction: column; 
+            position: relative;
+        }
+        .navbar-left {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .navbar a {
+            color:#f0efef;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        .navbar-right {
+            display: flex;
+            align-items: center;
+        }
+        .search-bar {
+            display: flex;
+            justify-content: center; 
+            margin: 10px 0; 
+        }
+        .search-bar input {
+            padding: 10px;
+            width: 700px; 
+        }.search-bar button {
+            padding: 10px;
+            background-color: white;
+            border: none;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+        .menu {
+            background-color: #ed5233;
+            padding: 10px;
+        }
+        .menu a {
+            color: white;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+        .cart-icon {
+            position: absolute;
+            top: 60px; 
+            right: 20px; 
+            cursor: pointer;
+        }
+        .cart-icon img {
+            width: 30px; 
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="navbar-left">
+            <div>
+                <a href="#">Kênh Người Bán</a>
+                <a href="#">Trở thành Người bán Shopee</a>
+                <a href="#">Tải ứng dụng</a>
+                <a href="#">Kết nối</a>
+            </div>
+            <div class="navbar-right">
+                <a href="#">Thông Báo</a>
+                <a href="#">Hỗ Trợ</a>
+                <a href="#">Tiếng Việt</a>
+                <a href="file:///C:/Users/Hong%20Ngoc/Downloads/%C4%90%C4%83ng%20K%C3%BDy.html">Đăng Ký</a>
+                <a href="file:///C:/Users/Hong%20Ngoc/Downloads/%C4%90%C4%83ng%20Nh%E1%BA%ADpp.html">Đăng Nhập</a>
+            </div>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Shopee bao ship 0Đ - Đăng ký ngay!">
+            <button>Search</button>  
+        </div>
+        <a href="file:///C:/Users/Hong%20Ngoc/Downloads/gi%E1%BB%8F%20h%C3%A0ngg.html" class="cart-icon">
+            <img src="https://img.icons8.com/ios-filled/50/ffffff/shopping-cart.png" >
+        </a>
+    </div>
+    <div class="menu">
+        <a href="#">Bình Nước Cho Nam</a>
+        <a href="#">Sản phẩm</a>
+        <a href="#">Sale 1k Điện Thoại</a>
+        <a href="#">Túi Mũ</a>
+        <a href="#">Săn IP</a>
+        <a href="#">Hoodie</a>
+        <a href="#">Dép</a>
+        <a href="#">Sữa Rửa Mặt Cerave</a>
+        <a href="#">Quần Short Nam</a>
+        <a href="#">Móc Khoá</a>
+    </div>
+</body>
+</html> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+</head>
+<br>
+<br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .carousel {
+            width: 40%; 
+            height: auto;
+            margin: auto; 
+        }
+        .carousel-item img {
+            width: 1000%; 
+            height: auto; 
+        }
+    </style>
+</head>
+<body>
+<section class="promotions">
+    <div class="promotion">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://down-vn.img.susercontent.com/file/vn-11134258-7r98o-lzzt62u4j6199e" class="d-block" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://down-vn.img.susercontent.com/file/vn-11134258-7ras8-m1cxcxacthso77" class="d-block" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://toplistvietnam.com/upload/media/posts/2022-09/06/san-sale-shopee-9-9-top-11-hot-deals-khong-the-bo-lo_1662447836-b.jpg" class="d-block" alt="Third slide">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+            <br>
+            <br>
+            <br>
+
+            <body>
+                 
+                <div class="container">
+                  
+                    <div class="item">
+                        <img src="https://channel.mediacdn.vn/2022/3/15/photo-1-16473361345291376373809.jpg" >
+                        <p>Voucher giảm<br>đến 1 triệu</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lhskeaibwww54a" >
+                        <p>Miễn Phí Ship<br>-có shoppe</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://static.kinhtedothi.vn/w960/images/upload/2022/09/26/fdf974f3-4b08-4cf1-92f3-56fa8e2a5334.png" >
+                        <p>MÃ Giảm Giá</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://cdnphoto.dantri.com.vn/thlWvlAti2K6F2s2j_gkFUAeuSw=/thumb_w/1020/2024/01/03/0301shopee-okdocx-1704286379144.png" >
+                        <p>Shoppe Siêu rẻ</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://afamilycdn.com/150157425591193600/2024/3/8/photo-1-1709871558308144166229-1709874910524-17098749111411801361868.jpg" >
+                        <p>Shoppe Style<br>Voucher 30%</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://salework.net/wp-content/uploads/2022/11/ban-hang-quoc-te-tren-shopee-2.jpg" >
+                        <p>Hàng Quốc Tế </p>
+                    </div>
+                    <div class="item">
+                        <img src="https://cdn.tgdd.vn/2020/04/content/Shopee5-740x572.jpg" >
+                        <p>Nạp thẻ,Dịch Vụ<br>&Vé phim</p>
+                    </div>
+                </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .offer-banner {
+            background-color: #1a3e82;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+            border-radius: 100px;
+            width: 100%; 
+            box-sizing: border-box;
+        }
+        .offer-banner div {
+            display: flex;
+            align-items: center;
+        }
+        .offer-banner img {
+            width: 50px;
+            margin-left: 10px;
+        }
+        .offer-banner a {
+            background-color: #ff5a3d;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: space-between;
+        }
+        .item {
+            width: 9%; 
+            margin-bottom: 10px; 
+            text-align: center;
+        }
+        img {
+            max-width: 100%; 
+            height: auto;   
+        }
+    </style>
+</head>
+<body>
+    <div class="offer-banner">
+        <div style="background-color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; justify-content: center; align-items: center;">
+            <span style="color: #ff5a3d; font-weight: bold;">199.000</span>
+        </div>
+    
+        <div style="text-align: center; flex-grow: 1;">
+            <span style="font-size: 18px; font-weight: bold;">QUÀ TẶNG MIỄN PHÍ</span>
+        </div>
+    
+        <div>
+            <div style="background-color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; justify-content: center; align-items: center;">
+                <span style="color: #ff5a3d; font-weight: bold;">29.000₫</span>
+            </div>
+            <img src="https://vinalink.edu.vn/uploaded/1-shopee-co-o-nhung-nuoc-nao.png" alt="Product image">
+        </div>
+    
+        <a href="#" style="background-color: #ff5a3d; color: white; padding: 5px 10px; border-radius: 20px; text-decoration: none; font-size: 20px; display: inline-block; width: 80px; text-align: center; margin-top: 20px;">NHẬN NGAY</a>
+    </div>
+     
+    <br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<body>
+    
+    <p><h4> DANH MỤC</h4></p>
+    <div class="container">
+     
+        <div class="item">
+            <img src="https://oldsailor.com.vn/vnt_upload/product/08_2022/dbf9b0ac536b9135c87a_1.jpg" >
+            <p>Thời Trang Nam</p>
+        </div>
+        <div class="item">
+            <img src="https://cdn.hoanghamobile.com/i/content/Uploads/2023/12/19/vn-iphone-15-pro-natural-titanium-pdp-image-position-1a-natural-titanium-color-hhm.jpg" >
+            <p>Điện Thoại & Phụ Kiện</p>
+        </div>
+        <div class="item">
+            <img src="https://trandinh.vn/wp-content/uploads/2023/01/smart-tivi-asanzo-43-inch-43s51-1.jpg" >
+            <p>Thiết Bị Điện Tử</p>
+        </div>
+        <div class="item">
+            <img src="https://hanoicomputercdn.com/media/product/77021_laptop_lenovo_ideapad_3_16iah8__83bg001xvn___2_.jpg" >
+            <p>Máy Tính & LapTop</p>
+        </div>
+        <div class="item">
+            <img src="https://product.hstatic.net/200000664119/product/analog-house-may-anh-lay-lien-fujifilm-instax-mini-12-trang_3d4dface48b44d3bb4516a0df4027e20.jpg" >
+            <p>Máy Ảnh & Máy Quay Phim</p>
+        </div>
+        <div class="item">
+            <img src="https://cdn.pnj.io/images/detailed/103/RA-AC0F08G10B_Desktop_1.jpg" >
+            <p>Đồng Hồ</p>
+        </div>
+        <div class="item">
+            <img src="https://product.hstatic.net/1000213511/product/dodavi-giay-nam-96220-de-1_53b4779a9cda4fc5b39f3dd38b202691.jpg" >
+            <p>Giày Dép Nam</p>
+        </div>
+        <div class="item">
+            <img src="https://kangaroovietnam.vn/Uploads/binh-dun-nuoc-sieu-toc-kg338.jpg" >
+            <p>Thiết Bị Điện<br>Gia Dụng</p>
+        </div>
+        <div class="item">
+            <img src="https://png.pngtree.com/png-vector/20240207/ourlarge/pngtree-black-and-white-soccer-ball-png-image_11672107.png" >
+            <p>Thể Thao & Du Lịch</p>
+        </div>
+        <div class="item">
+            <img src="https://product.hstatic.net/200000694643/product/xe-may-dien-dk-roma-sx-xam_2d54ca786946491d8f17a0829debc3ac_master.jpg" >
+            <p>Ô tô & Xe Máy & xe Đạp</p>
+        </div>
+
+        
+        <div class="item">
+            <img src="https://vietmadeco.vn/wp-content/uploads/2023/10/Balo-laptop-14inch-chong-nuoc-vmc2308-den-1.jpg" >
+            <p>Balo & Túi Ví Nam</p>
+        </div>
+        <div class="item">
+            <img src="https://product.hstatic.net/200000563747/product/jdz_3_._f369a6c2-cd7a-4344-a452-d6bc0998e80b_900x_1__ed1b2da2e2894519a1d185b52de54225_1024x1024.jpg" >
+            <p>Thời Trang Nữ</p>
+        </div>
+        <div class="item">
+            <img src="https://www.kidsplaza.vn/blog/wp-content/uploads/2020/09/th%E1%BA%A3m-%C4%91%E1%BB%93-ch%C6%A1i-piano-1024x1024.jpg" >
+            <p>Mẹ & Bé</p>
+        </div>
+        <div class="item">
+            <img src="https://bigshop.vn/media/product/250_1478_noi_tu_ecook_20cm.jpg" >
+            <p>Nhà Cửa & Đời Sống</p>
+        </div>
+        <div class="item">
+            <img src="https://kenh14cdn.com/2017/6-1496917075764.jpg">
+            <p>Sắc Đẹp</p>
+        </div>
+        <div class="item">
+            <img src="https://inbaobigiay.vn/wp-content/uploads/2023/02/hop-thuoc-dong-y-8-1.jpg" >
+            <p>Sức Khỏe</p>
+        </div>
+        <div class="item">
+            <img src="https://product.hstatic.net/1000003969/product/kem_cg11009_5_20231121102546_b433d2c2551f48149ddc1392d0cf8c11_master.jpeg" >
+            <p>Giày Dép Nữ</p>
+        </div>
+        <div class="item">
+            <img src="https://product.hstatic.net/200000726949/product/auden_multi_966-002-029_main_sq_nt_1200x1200_e21efd22e5f44d488d6bb45f5850584e_master.jpg" >
+            <p>Túi Ví Nữ</p>
+        </div>
+        <div class="item">
+            <img src="https://jemmia.vn/wp-content/uploads/2022/08/vong-tay-kim-cuong-18k-2_3.jpg" >
+            <p>Phụ Kiện & Trang Sức Nữ</p>
+        </div>
+        <div class="item">
+            <img src="https://png.pngtree.com/png-vector/20240109/ourlarge/pngtree-valentine-chocolates-png-image_11421405.png" >
+            <p>Bách Hóa Online</p>
+        </div>
+        <div class="item">
+            <img src="https://bizbooks.vn/uploads/images/products/ky-nang-quan-ly-thoi-gian.jpg" >
+            <p>Nhà Sách Online</p>
+        </div>
+    </div>
+</body>
+
+<body>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flash Sale Countdown</title>
+        <style>
+            .countdown-container {
+                font-family: Arial, sans-serif;
+                color: #000;
+                font-size: 1.4em; 
+                text-align: center;
+                margin-top: 20px;
+            }
+            .flash-sale {
+                color: #FF4500;
+                font-weight: bold;
+            }
+            .timer {
+                display: inline-block;
+                background-color: #000;
+                color: #FFF;
+                padding: 5px 5px; 
+                border-radius: 3px;
+                margin: 0 2px;
+            }
+        </style>
+    </head>
+    <body>   
+    <div class="countdown-container">
+        <span class="flash-sale">FLASH SALE</span>
+        <span id="hours" class="timer">00</span> :
+        <span id="minutes" class="timer">00</span> :
+        <span id="seconds" class="timer">00</span>
+    </div>
+    <script>
+        let countdownTime = 2500; 
+    
+        function startCountdown() {
+            const hoursElement = document.getElementById("hours");
+            const minutesElement = document.getElementById("minutes");
+            const secondsElement = document.getElementById("seconds");
+    
+            const countdown = setInterval(() => {
+                const hours = Math.floor(countdownTime / 3600);
+                const minutes = Math.floor((countdownTime % 3600) / 60);
+                const seconds = countdownTime % 60;
+    
+                hoursElement.textContent = String(hours).padStart(2, '0');
+                minutesElement.textContent = String(minutes).padStart(2, '0');
+                secondsElement.textContent = String(seconds).padStart(2, '0');
+    
+                if (countdownTime <= 0) {
+                    clearInterval(countdown);
+                    alert("Flash Sale has ended!");
+                } else {
+                    countdownTime--;
+                }
+            }, 1000);
+        }
+    
+        startCountdown();
+    </script>
+    
+    </body>
+    </html>
+</body>
+</html>
+    <div class="container">
+     
+        <div class="item">
+            <img src="https://afamilycdn.com/150157425591193600/2020/3/15/590521086729755431268163506859756613829005-1584241194844185165225.jpg" >
+            <p>$299.000vnđ</p>
+        </div>
+        <div class="item">
+            <img src="https://www.guardian.com.vn/media/catalog/product/cache/30b2b44eba57cd45fd3ef9287600968e/t/h/thumbnail_3025101_61c1zkhy0tyalpc5.jpg" >
+            <p>$199.000vnđ</p>
+        </div>
+        <div class="item">
+            <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ls2elb6az0ske4" >
+            <p>$99.000vnđ</p>
+        </div>
+        <div class="item">
+            <img src="https://boba.vn/static/san-pham/suc-khoe-va-lam-dep/thiet-bi-cham-soc-ca-nhan/may-say-toc/may-say-toc-chaobao-2000w/1dsad3254t.png" >
+            <p>$129.000vnđ</p>
+        </div>
+        <div class="item">
+            <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0nuzilbf46l59" >
+            <p>$399.000vnđ</p>
+        </div>
+        <div class="item">
+            <img src="https://bizweb.dktcdn.net/100/141/194/products/cerave-01.png?v=1663590773857" >
+            <p>$299.000vnđ</p>
+        </div>
+        <div class="item">
+            <img src="https://batos.vn/images/upload/images/myphamcacdai-lan-khu-mui-nivea-sang-min-mo-vet-tham-3.jpg" >
+            <p>$79.000vnđ</p>
+        </div>
+        <div class="item">
+            <img src="https://file.hstatic.net/200000551679/file/sunplay_kem_chong_nang_duong_the_whitening___4__31f22c1eeaf945fbb26840b1951e5182_grande.png" >
+            <p>$139.000vnđ</p>
+        </div>
+</body>
+
+<body>
+    <div class="container">
+        <div style="display: flex; justify-content: space-between; width: 100%; max-width: 1200px; margin: auto;">
+            <div style="flex: 1; margin: 10px;">
+                <img src="https://spartaviet.com/wp-content/uploads/2023/11/ma-giam-gia-shopee-moi-nhat.jpg" alt="Image 1" style="width: 100%; border-radius: 10px;">
+            </div>
+            <div style="flex: 1; margin: 10px;">
+                <img src="https://blog.dktcdn.net/files/san-tmdt.png" alt="Image 2" style="width: 100%; border-radius: 10px;">
+            </div>
+            <div style="flex: 1; margin: 10px;">
+                <img src="https://blog.splitdragon.com/wp-content/uploads/2020/03/Screenshot-2023-12-22-at-5.25.52-PM.png" alt="Image 3" style="width: 100%; border-radius: 10px;">
+            </div>
+        </div>
+        
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .banner {
+            background-color: #FFFFFF; 
+            display: flex;
+            align-items: center;
+            padding: 15px 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .banner-text {
+            color: #FF4500; 
+            margin-right: 50px; 
+        }
+        .free-shipping {
+            color: #000; 
+            font-size: 1em; 
+            margin-right: 40px; 
+        }
+        .corner {
+            margin-left: auto; 
+            font-size: 1.5em; 
+            color: #FF4500;
+        }
+    </style>
+</head>
+<body>
+<div class="banner">
+    <div class="banner-text">SHOPEE MALL</div>
+    <div class="free-shipping">Trả Hàng Miễn Phí 15 Ngày</div>
+    <div class="free-shipping">Hàng Chính Hãng 100%</div>
+    <div class="free-shipping">Miễn Phí GIao Hàng</div>
+</div>
+<div class="banner-text">Xem tất cả > </div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Layout Hình Ảnh</title>
+    <style>
+        .big-image {
+            width: 90%;
+            height: 400px;
+            object-fit: cover;
+        }
+        .square-image {
+            width: 400%; 
+            height: 150px;
+            object-fit: cover;
+        }
+        .image-container {
+            text-align: center; 
+            margin-bottom: 10px; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-lg-8">
+            <img src="https://media.vneconomy.vn/images/upload/2023/09/06/1-2.jpg" class="big-image" >
+        </div>
+        <div class="col-lg-4">
+            <div class="row">
+                <div class="col-4">
+                    <div class="image-container">
+                        <img src="https://static.divashop.vn/2024/2024-05/600x600_a646663ec157aacc0f4ba8123b1d304d.jpg" >
+                        <p>Mua 1 tặng 1</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="image-container">
+                        <img src="https://mint07.com/wp-content/uploads/2019/06/kem-chong-nang-anessa-dang-gel-perfect-uv-sunscreen.jpg">
+                        <p>Ưu đãi đến 50%</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="image-container">
+                        <img src="https://sonca.vn/wp-content/uploads/2023/09/Co-12-mau-cho-cac-ban-thoa-suc-sang-tao-280x280.jpg">
+                        <p>Deli siêu sale</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="image-container">
+                        <img src="https://inhat.vn/wp-content/uploads/2021/03/Shop-quan-ao-nu-sexy-ngau-3.png" >
+                        <p>Thời trang -50%</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="image-container">
+                        <img src="https://cdn.bellhome.vn/storage/product/combo-nuoc-giat-xa-va-nuoc-xa-vai-bell-home%20(2).jpg" >
+                        <p>Mua 1 được 2</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="image-container">
+                        <img src="https://maiba.vn/wp-content/uploads/2023/12/%E4%B8%BB%E5%9B%BE-02-8.jpg">
+                        <p>Quà mọi đơn</p>
+                  
+</div>
+
+</body>
+</html>
+
+
+
+      
+   
